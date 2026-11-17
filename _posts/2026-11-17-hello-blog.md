@@ -1,6 +1,6 @@
 ---
 title: 블로그를 시작합니다
-date: 2026-11-17 20:00:00 +0900
+date: 2026-11-17 19:00:00 +0900
 categories: [Blog, Notice]
 tags: [intro, data-science]
 math: true
