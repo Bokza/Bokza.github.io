@@ -1,7 +1,18 @@
 ---
 ---
 
-@import "main";
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
 
 /* 굵은 글씨 형광펜 하이라이트 */
 .content strong, .post-content strong, article strong {
