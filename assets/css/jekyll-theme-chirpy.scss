@@ -1,0 +1,14 @@
+---
+---
+
+@import "main";
+
+/* 굵은 글씨 형광펜 하이라이트 */
+.content strong, .post-content strong, article strong {
+  font-weight: 800;
+  background: linear-gradient(transparent 62%, #ffe2d6 62%);
+}
+html[data-mode="dark"] .content strong,
+html[data-mode="dark"] article strong {
+  background: linear-gradient(transparent 62%, rgba(232, 84, 46, .35) 62%);
+}
